@@ -13,7 +13,7 @@ spec:
     - -logtostderr=false
     - -alsologtostderr=true
     - -log_file=/host/oslat.log
-    - -runtime={{ duration_in_seconds }}
+    - -runtime={{ duration }}
     command:
     - /usr/bin/oslat-runner
     image: quay.io/openshift-kni/cnf-tests:4.7
