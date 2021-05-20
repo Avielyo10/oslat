@@ -8,6 +8,10 @@ metadata:
     app.kubernetes.io/name: oslat
     app.kubernetes.io/version: "4.7"
 spec:
+  initContainers:
+  - name: init-oslat
+    image: quay.io/openshift-kni/cnf-tests:4.7
+    command: ['sleep', '60']
   containers:
   - args:
     - -logtostderr=false
