@@ -1,5 +1,7 @@
 # oslat
 
+OS latency tool
+
 ## Deployment
 ```bash
 pip3 install jinja2-tools --user
