@@ -1,6 +1,6 @@
 # oslat
 
-OS latency tool
+OS latency tool for OpenShift
 
 ## Deployment
 ```bash
